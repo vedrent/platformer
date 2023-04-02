@@ -1,0 +1,3 @@
+C:/_coding/platformer/cmake-build-debug/CMakeFiles/platformer.dir
+C:/_coding/platformer/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/_coding/platformer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
