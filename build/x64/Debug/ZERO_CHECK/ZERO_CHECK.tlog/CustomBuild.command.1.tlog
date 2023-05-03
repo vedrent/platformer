@@ -1,0 +1,10 @@
+^C:\_CODING\PLATFORMER\BUILD\CMAKEFILES\9B35C06B9A5527E8F234CC1FF143B2B7\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/_coding/SDL2-2.26.5 -BC:/_coding/platformer/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/_coding/platformer/build/SDL2.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,1308 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.4.0+18d5aef85 for .NET Framework
+      Сборка начата 02.05.2023 17:06:41.
+      Проект "C:\\_coding\\platformer\\build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\_coding\\platformer\\build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Сборка проекта "C:\\_coding\\platformer\\build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:01.74
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/_coding/platformer/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.4.0+18d5aef85 for .NET Framework
+      Сборка начата 02.05.2023 17:06:43.
+      Проект "C:\\_coding\\platformer\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\_coding\\platformer\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "C:\\_coding\\platformer\\build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:01.31
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/_coding/platformer/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-si2cqm"
+      binary: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-si2cqm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-si2cqm
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f4340.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+        Сборка начата 02.05.2023 17:06:45.
+        Проект "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si2cqm\\cmTC_f4340.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_f4340.dir\\Debug\\".
+          Создание каталога "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si2cqm\\Debug\\".
+          Создание каталога "cmTC_f4340.dir\\Debug\\cmTC_f4340.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_f4340.dir\\Debug\\cmTC_f4340.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f4340.dir\\Debug\\\\" /Fd"cmTC_f4340.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31935 для x64
+          CMakeCCompilerABI.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f4340.dir\\Debug\\\\" /Fd"cmTC_f4340.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si2cqm\\Debug\\cmTC_f4340.exe" /INCREMENTAL /ILK:"cmTC_f4340.dir\\Debug\\cmTC_f4340.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-si2cqm/Debug/cmTC_f4340.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-si2cqm/Debug/cmTC_f4340.lib" /MACHINE:X64  /machine:x64 cmTC_f4340.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_f4340.vcxproj -> C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si2cqm\\Debug\\cmTC_f4340.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_f4340.dir\\Debug\\cmTC_f4340.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_f4340.dir\\Debug\\cmTC_f4340.tlog\\cmTC_f4340.lastbuildstate".
+        Сборка проекта "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si2cqm\\cmTC_f4340.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.24
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-nmdn8c"
+      binary: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-nmdn8c"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-nmdn8c
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b6825.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+        Сборка начата 02.05.2023 17:06:47.
+        Проект "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nmdn8c\\cmTC_b6825.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_b6825.dir\\Debug\\".
+          Создание каталога "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nmdn8c\\Debug\\".
+          Создание каталога "cmTC_b6825.dir\\Debug\\cmTC_b6825.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_b6825.dir\\Debug\\cmTC_b6825.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b6825.dir\\Debug\\\\" /Fd"cmTC_b6825.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31935 для x64
+          CMakeCXXCompilerABI.cpp
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b6825.dir\\Debug\\\\" /Fd"cmTC_b6825.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nmdn8c\\Debug\\cmTC_b6825.exe" /INCREMENTAL /ILK:"cmTC_b6825.dir\\Debug\\cmTC_b6825.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-nmdn8c/Debug/cmTC_b6825.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-nmdn8c/Debug/cmTC_b6825.lib" /MACHINE:X64  /machine:x64 cmTC_b6825.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_b6825.vcxproj -> C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nmdn8c\\Debug\\cmTC_b6825.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_b6825.dir\\Debug\\cmTC_b6825.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_b6825.dir\\Debug\\cmTC_b6825.tlog\\cmTC_b6825.lastbuildstate".
+        Сборка проекта "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nmdn8c\\cmTC_b6825.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.29
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:81 (check_symbol_exists)"
+    checks:
+      - "Looking for __GLIBC__"
+    directories:
+      source: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-c66bmq"
+      binary: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-c66bmq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/_coding/SDL2-2.26.5/cmake"
+    buildResult:
+      variable: "LIBC_IS_GLIBC"
+      cached: true
+      stdout: |
+        Change Dir: C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-c66bmq
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6f22a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+        Сборка начата 02.05.2023 17:06:49.
+        Проект "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c66bmq\\cmTC_6f22a.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_6f22a.dir\\Debug\\".
+          Создание каталога "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c66bmq\\Debug\\".
+          Создание каталога "cmTC_6f22a.dir\\Debug\\cmTC_6f22a.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_6f22a.dir\\Debug\\cmTC_6f22a.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6f22a.dir\\Debug\\\\" /Fd"cmTC_6f22a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c66bmq\\CheckSymbolExists.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31935 для x64
+          CheckSymbolExists.c
+        C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c66bmq\\CheckSymbolExists.c(8,28): error C2065: __GLIBC__: необъявленный идентификатор [C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c66bmq\\cmTC_6f22a.vcxproj]
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6f22a.dir\\Debug\\\\" /Fd"cmTC_6f22a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c66bmq\\CheckSymbolExists.c"
+        Сборка проекта "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c66bmq\\cmTC_6f22a.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c66bmq\\cmTC_6f22a.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c66bmq\\CheckSymbolExists.c(8,28): error C2065: __GLIBC__: необъявленный идентификатор [C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c66bmq\\cmTC_6f22a.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.79
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:953 (check_include_file)"
+    checks:
+      - "Looking for immintrin.h"
+    directories:
+      source: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-xfarf4"
+      binary: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-xfarf4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/_coding/SDL2-2.26.5/cmake"
+    buildResult:
+      variable: "HAVE_IMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-xfarf4
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a3cc6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+        Сборка начата 02.05.2023 17:06:50.
+        Проект "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xfarf4\\cmTC_a3cc6.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_a3cc6.dir\\Debug\\".
+          Создание каталога "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xfarf4\\Debug\\".
+          Создание каталога "cmTC_a3cc6.dir\\Debug\\cmTC_a3cc6.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_a3cc6.dir\\Debug\\cmTC_a3cc6.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a3cc6.dir\\Debug\\\\" /Fd"cmTC_a3cc6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xfarf4\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31935 для x64
+          CheckIncludeFile.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a3cc6.dir\\Debug\\\\" /Fd"cmTC_a3cc6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xfarf4\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xfarf4\\Debug\\cmTC_a3cc6.exe" /INCREMENTAL /ILK:"cmTC_a3cc6.dir\\Debug\\cmTC_a3cc6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-xfarf4/Debug/cmTC_a3cc6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-xfarf4/Debug/cmTC_a3cc6.lib" /MACHINE:X64  /machine:x64 cmTC_a3cc6.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_a3cc6.vcxproj -> C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xfarf4\\Debug\\cmTC_a3cc6.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_a3cc6.dir\\Debug\\cmTC_a3cc6.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_a3cc6.dir\\Debug\\cmTC_a3cc6.tlog\\cmTC_a3cc6.lastbuildstate".
+        Сборка проекта "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xfarf4\\cmTC_a3cc6.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.24
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:1103 (check_include_file)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-sd3k9c"
+      binary: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-sd3k9c"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/_coding/SDL2-2.26.5/cmake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-sd3k9c
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_43a5a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+        Сборка начата 02.05.2023 17:06:51.
+        Проект "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sd3k9c\\cmTC_43a5a.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_43a5a.dir\\Debug\\".
+          Создание каталога "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sd3k9c\\Debug\\".
+          Создание каталога "cmTC_43a5a.dir\\Debug\\cmTC_43a5a.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_43a5a.dir\\Debug\\cmTC_43a5a.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_43a5a.dir\\Debug\\\\" /Fd"cmTC_43a5a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sd3k9c\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31935 для x64
+          CheckIncludeFile.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_43a5a.dir\\Debug\\\\" /Fd"cmTC_43a5a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sd3k9c\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sd3k9c\\Debug\\cmTC_43a5a.exe" /INCREMENTAL /ILK:"cmTC_43a5a.dir\\Debug\\cmTC_43a5a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-sd3k9c/Debug/cmTC_43a5a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-sd3k9c/Debug/cmTC_43a5a.lib" /MACHINE:X64  /machine:x64 cmTC_43a5a.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_43a5a.vcxproj -> C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sd3k9c\\Debug\\cmTC_43a5a.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_43a5a.dir\\Debug\\cmTC_43a5a.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_43a5a.dir\\Debug\\cmTC_43a5a.tlog\\cmTC_43a5a.lastbuildstate".
+        Сборка проекта "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sd3k9c\\cmTC_43a5a.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.20
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:1676 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_WIN32_CC"
+    directories:
+      source: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-qs998p"
+      binary: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-qs998p"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/_coding/SDL2-2.26.5/cmake"
+    buildResult:
+      variable: "HAVE_WIN32_CC"
+      cached: true
+      stdout: |
+        Change Dir: C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-qs998p
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f65b1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+        Сборка начата 02.05.2023 17:06:53.
+        Проект "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qs998p\\cmTC_f65b1.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_f65b1.dir\\Debug\\".
+          Создание каталога "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qs998p\\Debug\\".
+          Создание каталога "cmTC_f65b1.dir\\Debug\\cmTC_f65b1.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_f65b1.dir\\Debug\\cmTC_f65b1.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_WIN32_CC /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f65b1.dir\\Debug\\\\" /Fd"cmTC_f65b1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qs998p\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31935 для x64
+          src.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_WIN32_CC /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f65b1.dir\\Debug\\\\" /Fd"cmTC_f65b1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qs998p\\src.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qs998p\\Debug\\cmTC_f65b1.exe" /INCREMENTAL /ILK:"cmTC_f65b1.dir\\Debug\\cmTC_f65b1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-qs998p/Debug/cmTC_f65b1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-qs998p/Debug/cmTC_f65b1.lib" /MACHINE:X64  /machine:x64 cmTC_f65b1.dir\\Debug\\src.obj
+          cmTC_f65b1.vcxproj -> C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qs998p\\Debug\\cmTC_f65b1.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_f65b1.dir\\Debug\\cmTC_f65b1.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_f65b1.dir\\Debug\\cmTC_f65b1.tlog\\cmTC_f65b1.lastbuildstate".
+        Сборка проекта "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qs998p\\cmTC_f65b1.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.77
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:1718 (check_include_file)"
+    checks:
+      - "Looking for d3d9.h"
+    directories:
+      source: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-f0sqg6"
+      binary: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-f0sqg6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/_coding/SDL2-2.26.5/cmake"
+    buildResult:
+      variable: "HAVE_D3D_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-f0sqg6
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_92bbd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+        Сборка начата 02.05.2023 17:06:55.
+        Проект "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f0sqg6\\cmTC_92bbd.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_92bbd.dir\\Debug\\".
+          Создание каталога "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f0sqg6\\Debug\\".
+          Создание каталога "cmTC_92bbd.dir\\Debug\\cmTC_92bbd.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_92bbd.dir\\Debug\\cmTC_92bbd.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_92bbd.dir\\Debug\\\\" /Fd"cmTC_92bbd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f0sqg6\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31935 для x64
+          CheckIncludeFile.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_92bbd.dir\\Debug\\\\" /Fd"cmTC_92bbd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f0sqg6\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f0sqg6\\Debug\\cmTC_92bbd.exe" /INCREMENTAL /ILK:"cmTC_92bbd.dir\\Debug\\cmTC_92bbd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-f0sqg6/Debug/cmTC_92bbd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-f0sqg6/Debug/cmTC_92bbd.lib" /MACHINE:X64  /machine:x64 cmTC_92bbd.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_92bbd.vcxproj -> C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f0sqg6\\Debug\\cmTC_92bbd.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_92bbd.dir\\Debug\\cmTC_92bbd.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_92bbd.dir\\Debug\\cmTC_92bbd.tlog\\cmTC_92bbd.lastbuildstate".
+        Сборка проекта "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f0sqg6\\cmTC_92bbd.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.80
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:1719 (check_include_file)"
+    checks:
+      - "Looking for d3d11_1.h"
+    directories:
+      source: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-i0u8w1"
+      binary: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-i0u8w1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/_coding/SDL2-2.26.5/cmake"
+    buildResult:
+      variable: "HAVE_D3D11_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-i0u8w1
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f160f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+        Сборка начата 02.05.2023 17:06:57.
+        Проект "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i0u8w1\\cmTC_f160f.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_f160f.dir\\Debug\\".
+          Создание каталога "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i0u8w1\\Debug\\".
+          Создание каталога "cmTC_f160f.dir\\Debug\\cmTC_f160f.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_f160f.dir\\Debug\\cmTC_f160f.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f160f.dir\\Debug\\\\" /Fd"cmTC_f160f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i0u8w1\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31935 для x64
+          CheckIncludeFile.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f160f.dir\\Debug\\\\" /Fd"cmTC_f160f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i0u8w1\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i0u8w1\\Debug\\cmTC_f160f.exe" /INCREMENTAL /ILK:"cmTC_f160f.dir\\Debug\\cmTC_f160f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-i0u8w1/Debug/cmTC_f160f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-i0u8w1/Debug/cmTC_f160f.lib" /MACHINE:X64  /machine:x64 cmTC_f160f.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_f160f.vcxproj -> C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i0u8w1\\Debug\\cmTC_f160f.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_f160f.dir\\Debug\\cmTC_f160f.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_f160f.dir\\Debug\\cmTC_f160f.tlog\\cmTC_f160f.lastbuildstate".
+        Сборка проекта "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i0u8w1\\cmTC_f160f.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.87
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:1720 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_D3D12_H"
+    directories:
+      source: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-smqxs7"
+      binary: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-smqxs7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/_coding/SDL2-2.26.5/cmake"
+    buildResult:
+      variable: "HAVE_D3D12_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-smqxs7
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_60588.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+        Сборка начата 02.05.2023 17:07:00.
+        Проект "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smqxs7\\cmTC_60588.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_60588.dir\\Debug\\".
+          Создание каталога "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smqxs7\\Debug\\".
+          Создание каталога "cmTC_60588.dir\\Debug\\cmTC_60588.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_60588.dir\\Debug\\cmTC_60588.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_D3D12_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_60588.dir\\Debug\\\\" /Fd"cmTC_60588.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smqxs7\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31935 для x64
+          src.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_D3D12_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_60588.dir\\Debug\\\\" /Fd"cmTC_60588.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smqxs7\\src.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smqxs7\\Debug\\cmTC_60588.exe" /INCREMENTAL /ILK:"cmTC_60588.dir\\Debug\\cmTC_60588.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-smqxs7/Debug/cmTC_60588.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-smqxs7/Debug/cmTC_60588.lib" /MACHINE:X64  /machine:x64 cmTC_60588.dir\\Debug\\src.obj
+          cmTC_60588.vcxproj -> C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smqxs7\\Debug\\cmTC_60588.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_60588.dir\\Debug\\cmTC_60588.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_60588.dir\\Debug\\cmTC_60588.tlog\\cmTC_60588.lastbuildstate".
+        Сборка проекта "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smqxs7\\cmTC_60588.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.83
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:1728 (check_include_file)"
+    checks:
+      - "Looking for ddraw.h"
+    directories:
+      source: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-vjyund"
+      binary: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-vjyund"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/_coding/SDL2-2.26.5/cmake"
+    buildResult:
+      variable: "HAVE_DDRAW_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-vjyund
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_56b76.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+        Сборка начата 02.05.2023 17:07:02.
+        Проект "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vjyund\\cmTC_56b76.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_56b76.dir\\Debug\\".
+          Создание каталога "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vjyund\\Debug\\".
+          Создание каталога "cmTC_56b76.dir\\Debug\\cmTC_56b76.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_56b76.dir\\Debug\\cmTC_56b76.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_56b76.dir\\Debug\\\\" /Fd"cmTC_56b76.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vjyund\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31935 для x64
+          CheckIncludeFile.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_56b76.dir\\Debug\\\\" /Fd"cmTC_56b76.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vjyund\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vjyund\\Debug\\cmTC_56b76.exe" /INCREMENTAL /ILK:"cmTC_56b76.dir\\Debug\\cmTC_56b76.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-vjyund/Debug/cmTC_56b76.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-vjyund/Debug/cmTC_56b76.lib" /MACHINE:X64  /machine:x64 cmTC_56b76.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_56b76.vcxproj -> C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vjyund\\Debug\\cmTC_56b76.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_56b76.dir\\Debug\\cmTC_56b76.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_56b76.dir\\Debug\\cmTC_56b76.tlog\\cmTC_56b76.lastbuildstate".
+        Сборка проекта "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vjyund\\cmTC_56b76.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.79
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:1729 (check_include_file)"
+    checks:
+      - "Looking for dsound.h"
+    directories:
+      source: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-nxj7ew"
+      binary: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-nxj7ew"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/_coding/SDL2-2.26.5/cmake"
+    buildResult:
+      variable: "HAVE_DSOUND_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-nxj7ew
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5d395.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+        Сборка начата 02.05.2023 17:07:04.
+        Проект "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nxj7ew\\cmTC_5d395.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_5d395.dir\\Debug\\".
+          Создание каталога "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nxj7ew\\Debug\\".
+          Создание каталога "cmTC_5d395.dir\\Debug\\cmTC_5d395.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_5d395.dir\\Debug\\cmTC_5d395.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5d395.dir\\Debug\\\\" /Fd"cmTC_5d395.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nxj7ew\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31935 для x64
+          CheckIncludeFile.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5d395.dir\\Debug\\\\" /Fd"cmTC_5d395.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nxj7ew\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nxj7ew\\Debug\\cmTC_5d395.exe" /INCREMENTAL /ILK:"cmTC_5d395.dir\\Debug\\cmTC_5d395.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-nxj7ew/Debug/cmTC_5d395.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-nxj7ew/Debug/cmTC_5d395.lib" /MACHINE:X64  /machine:x64 cmTC_5d395.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_5d395.vcxproj -> C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nxj7ew\\Debug\\cmTC_5d395.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_5d395.dir\\Debug\\cmTC_5d395.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_5d395.dir\\Debug\\cmTC_5d395.tlog\\cmTC_5d395.lastbuildstate".
+        Сборка проекта "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nxj7ew\\cmTC_5d395.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.68
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:1730 (check_include_file)"
+    checks:
+      - "Looking for dinput.h"
+    directories:
+      source: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-pnr0cn"
+      binary: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-pnr0cn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/_coding/SDL2-2.26.5/cmake"
+    buildResult:
+      variable: "HAVE_DINPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-pnr0cn
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f22f1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+        Сборка начата 02.05.2023 17:07:06.
+        Проект "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pnr0cn\\cmTC_f22f1.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_f22f1.dir\\Debug\\".
+          Создание каталога "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pnr0cn\\Debug\\".
+          Создание каталога "cmTC_f22f1.dir\\Debug\\cmTC_f22f1.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_f22f1.dir\\Debug\\cmTC_f22f1.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f22f1.dir\\Debug\\\\" /Fd"cmTC_f22f1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pnr0cn\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31935 для x64
+          CheckIncludeFile.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f22f1.dir\\Debug\\\\" /Fd"cmTC_f22f1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pnr0cn\\CheckIncludeFile.c"
+          C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\um\\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pnr0cn\\Debug\\cmTC_f22f1.exe" /INCREMENTAL /ILK:"cmTC_f22f1.dir\\Debug\\cmTC_f22f1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-pnr0cn/Debug/cmTC_f22f1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-pnr0cn/Debug/cmTC_f22f1.lib" /MACHINE:X64  /machine:x64 cmTC_f22f1.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_f22f1.vcxproj -> C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pnr0cn\\Debug\\cmTC_f22f1.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_f22f1.dir\\Debug\\cmTC_f22f1.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_f22f1.dir\\Debug\\cmTC_f22f1.tlog\\cmTC_f22f1.lastbuildstate".
+        Сборка проекта "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pnr0cn\\cmTC_f22f1.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.79
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:1734 (check_include_file)"
+    checks:
+      - "Looking for dxgi.h"
+    directories:
+      source: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-3yrn7e"
+      binary: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-3yrn7e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/_coding/SDL2-2.26.5/cmake"
+    buildResult:
+      variable: "HAVE_DXGI_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-3yrn7e
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_19e4e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+        Сборка начата 02.05.2023 17:07:08.
+        Проект "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3yrn7e\\cmTC_19e4e.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_19e4e.dir\\Debug\\".
+          Создание каталога "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3yrn7e\\Debug\\".
+          Создание каталога "cmTC_19e4e.dir\\Debug\\cmTC_19e4e.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_19e4e.dir\\Debug\\cmTC_19e4e.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_19e4e.dir\\Debug\\\\" /Fd"cmTC_19e4e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3yrn7e\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31935 для x64
+          CheckIncludeFile.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_19e4e.dir\\Debug\\\\" /Fd"cmTC_19e4e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3yrn7e\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3yrn7e\\Debug\\cmTC_19e4e.exe" /INCREMENTAL /ILK:"cmTC_19e4e.dir\\Debug\\cmTC_19e4e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-3yrn7e/Debug/cmTC_19e4e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-3yrn7e/Debug/cmTC_19e4e.lib" /MACHINE:X64  /machine:x64 cmTC_19e4e.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_19e4e.vcxproj -> C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3yrn7e\\Debug\\cmTC_19e4e.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_19e4e.dir\\Debug\\cmTC_19e4e.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_19e4e.dir\\Debug\\cmTC_19e4e.tlog\\cmTC_19e4e.lastbuildstate".
+        Сборка проекта "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3yrn7e\\cmTC_19e4e.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.73
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:1748 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_XINPUT_H"
+    directories:
+      source: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-eykqtp"
+      binary: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-eykqtp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/_coding/SDL2-2.26.5/cmake"
+    buildResult:
+      variable: "HAVE_XINPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-eykqtp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d82fd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+        Сборка начата 02.05.2023 17:07:11.
+        Проект "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eykqtp\\cmTC_d82fd.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_d82fd.dir\\Debug\\".
+          Создание каталога "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eykqtp\\Debug\\".
+          Создание каталога "cmTC_d82fd.dir\\Debug\\cmTC_d82fd.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_d82fd.dir\\Debug\\cmTC_d82fd.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_XINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d82fd.dir\\Debug\\\\" /Fd"cmTC_d82fd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eykqtp\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31935 для x64
+          src.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_XINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d82fd.dir\\Debug\\\\" /Fd"cmTC_d82fd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eykqtp\\src.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eykqtp\\Debug\\cmTC_d82fd.exe" /INCREMENTAL /ILK:"cmTC_d82fd.dir\\Debug\\cmTC_d82fd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-eykqtp/Debug/cmTC_d82fd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-eykqtp/Debug/cmTC_d82fd.lib" /MACHINE:X64  /machine:x64 cmTC_d82fd.dir\\Debug\\src.obj
+          cmTC_d82fd.vcxproj -> C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eykqtp\\Debug\\cmTC_d82fd.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_d82fd.dir\\Debug\\cmTC_d82fd.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_d82fd.dir\\Debug\\cmTC_d82fd.tlog\\cmTC_d82fd.lastbuildstate".
+        Сборка проекта "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eykqtp\\cmTC_d82fd.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.70
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:1752 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_XINPUT_GAMEPAD_EX"
+    directories:
+      source: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-r4jvwb"
+      binary: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-r4jvwb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/_coding/SDL2-2.26.5/cmake"
+    buildResult:
+      variable: "HAVE_XINPUT_GAMEPAD_EX"
+      cached: true
+      stdout: |
+        Change Dir: C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-r4jvwb
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9343b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+        Сборка начата 02.05.2023 17:07:13.
+        Проект "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r4jvwb\\cmTC_9343b.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_9343b.dir\\Debug\\".
+          Создание каталога "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r4jvwb\\Debug\\".
+          Создание каталога "cmTC_9343b.dir\\Debug\\cmTC_9343b.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_9343b.dir\\Debug\\cmTC_9343b.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_XINPUT_GAMEPAD_EX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9343b.dir\\Debug\\\\" /Fd"cmTC_9343b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r4jvwb\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31935 для x64
+          src.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_XINPUT_GAMEPAD_EX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9343b.dir\\Debug\\\\" /Fd"cmTC_9343b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r4jvwb\\src.c"
+        C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r4jvwb\\src.c(4,25): error C2061: синтаксическая ошибка: идентификатор "x1" [C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r4jvwb\\cmTC_9343b.vcxproj]
+        C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r4jvwb\\src.c(4,25): error C2059: синтаксическая ошибка: ; [C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r4jvwb\\cmTC_9343b.vcxproj]
+        Сборка проекта "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r4jvwb\\cmTC_9343b.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r4jvwb\\cmTC_9343b.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r4jvwb\\src.c(4,25): error C2061: синтаксическая ошибка: идентификатор "x1" [C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r4jvwb\\cmTC_9343b.vcxproj]
+          C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r4jvwb\\src.c(4,25): error C2059: синтаксическая ошибка: ; [C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r4jvwb\\cmTC_9343b.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 2
+        
+        Прошло времени 00:00:01.21
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:1757 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_XINPUT_STATE_EX"
+    directories:
+      source: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-xxt6wf"
+      binary: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-xxt6wf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/_coding/SDL2-2.26.5/cmake"
+    buildResult:
+      variable: "HAVE_XINPUT_STATE_EX"
+      cached: true
+      stdout: |
+        Change Dir: C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-xxt6wf
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d6611.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+        Сборка начата 02.05.2023 17:07:14.
+        Проект "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xxt6wf\\cmTC_d6611.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_d6611.dir\\Debug\\".
+          Создание каталога "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xxt6wf\\Debug\\".
+          Создание каталога "cmTC_d6611.dir\\Debug\\cmTC_d6611.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_d6611.dir\\Debug\\cmTC_d6611.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_XINPUT_STATE_EX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d6611.dir\\Debug\\\\" /Fd"cmTC_d6611.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xxt6wf\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31935 для x64
+          src.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_XINPUT_STATE_EX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d6611.dir\\Debug\\\\" /Fd"cmTC_d6611.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xxt6wf\\src.c"
+        C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xxt6wf\\src.c(4,23): error C2061: синтаксическая ошибка: идентификатор "s1" [C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xxt6wf\\cmTC_d6611.vcxproj]
+        C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xxt6wf\\src.c(4,23): error C2059: синтаксическая ошибка: ; [C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xxt6wf\\cmTC_d6611.vcxproj]
+        Сборка проекта "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xxt6wf\\cmTC_d6611.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xxt6wf\\cmTC_d6611.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xxt6wf\\src.c(4,23): error C2061: синтаксическая ошибка: идентификатор "s1" [C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xxt6wf\\cmTC_d6611.vcxproj]
+          C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xxt6wf\\src.c(4,23): error C2059: синтаксическая ошибка: ; [C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xxt6wf\\cmTC_d6611.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 2
+        
+        Прошло времени 00:00:01.22
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:1762 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_WINDOWS_GAMING_INPUT_H"
+    directories:
+      source: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-egoelo"
+      binary: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-egoelo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/_coding/SDL2-2.26.5/cmake"
+    buildResult:
+      variable: "HAVE_WINDOWS_GAMING_INPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-egoelo
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_24454.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+        Сборка начата 02.05.2023 17:07:16.
+        Проект "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-egoelo\\cmTC_24454.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_24454.dir\\Debug\\".
+          Создание каталога "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-egoelo\\Debug\\".
+          Создание каталога "cmTC_24454.dir\\Debug\\cmTC_24454.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_24454.dir\\Debug\\cmTC_24454.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_WINDOWS_GAMING_INPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_24454.dir\\Debug\\\\" /Fd"cmTC_24454.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-egoelo\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31935 для x64
+          src.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_WINDOWS_GAMING_INPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_24454.dir\\Debug\\\\" /Fd"cmTC_24454.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-egoelo\\src.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-egoelo\\Debug\\cmTC_24454.exe" /INCREMENTAL /ILK:"cmTC_24454.dir\\Debug\\cmTC_24454.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-egoelo/Debug/cmTC_24454.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-egoelo/Debug/cmTC_24454.lib" /MACHINE:X64  /machine:x64 cmTC_24454.dir\\Debug\\src.obj
+          cmTC_24454.vcxproj -> C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-egoelo\\Debug\\cmTC_24454.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_24454.dir\\Debug\\cmTC_24454.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_24454.dir\\Debug\\cmTC_24454.tlog\\cmTC_24454.lastbuildstate".
+        Сборка проекта "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-egoelo\\cmTC_24454.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:03.11
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:1770 (check_include_file)"
+    checks:
+      - "Looking for tpcshrd.h"
+    directories:
+      source: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-5wr94r"
+      binary: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-5wr94r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/_coding/SDL2-2.26.5/cmake"
+    buildResult:
+      variable: "HAVE_TPCSHRD_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-5wr94r
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b6613.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+        Сборка начата 02.05.2023 17:07:20.
+        Проект "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5wr94r\\cmTC_b6613.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_b6613.dir\\Debug\\".
+          Создание каталога "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5wr94r\\Debug\\".
+          Создание каталога "cmTC_b6613.dir\\Debug\\cmTC_b6613.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_b6613.dir\\Debug\\cmTC_b6613.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b6613.dir\\Debug\\\\" /Fd"cmTC_b6613.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5wr94r\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31935 для x64
+          CheckIncludeFile.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b6613.dir\\Debug\\\\" /Fd"cmTC_b6613.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5wr94r\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5wr94r\\Debug\\cmTC_b6613.exe" /INCREMENTAL /ILK:"cmTC_b6613.dir\\Debug\\cmTC_b6613.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-5wr94r/Debug/cmTC_b6613.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-5wr94r/Debug/cmTC_b6613.lib" /MACHINE:X64  /machine:x64 cmTC_b6613.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_b6613.vcxproj -> C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5wr94r\\Debug\\cmTC_b6613.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_b6613.dir\\Debug\\cmTC_b6613.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_b6613.dir\\Debug\\cmTC_b6613.tlog\\cmTC_b6613.lastbuildstate".
+        Сборка проекта "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5wr94r\\cmTC_b6613.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.70
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:1771 (check_include_file)"
+    checks:
+      - "Looking for roapi.h"
+    directories:
+      source: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-524ubu"
+      binary: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-524ubu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/_coding/SDL2-2.26.5/cmake"
+    buildResult:
+      variable: "HAVE_ROAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-524ubu
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_70c60.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+        Сборка начата 02.05.2023 17:07:22.
+        Проект "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-524ubu\\cmTC_70c60.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_70c60.dir\\Debug\\".
+          Создание каталога "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-524ubu\\Debug\\".
+          Создание каталога "cmTC_70c60.dir\\Debug\\cmTC_70c60.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_70c60.dir\\Debug\\cmTC_70c60.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_70c60.dir\\Debug\\\\" /Fd"cmTC_70c60.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-524ubu\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31935 для x64
+          CheckIncludeFile.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_70c60.dir\\Debug\\\\" /Fd"cmTC_70c60.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-524ubu\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-524ubu\\Debug\\cmTC_70c60.exe" /INCREMENTAL /ILK:"cmTC_70c60.dir\\Debug\\cmTC_70c60.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-524ubu/Debug/cmTC_70c60.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-524ubu/Debug/cmTC_70c60.lib" /MACHINE:X64  /machine:x64 cmTC_70c60.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_70c60.vcxproj -> C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-524ubu\\Debug\\cmTC_70c60.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_70c60.dir\\Debug\\cmTC_70c60.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_70c60.dir\\Debug\\cmTC_70c60.tlog\\cmTC_70c60.lastbuildstate".
+        Сборка проекта "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-524ubu\\cmTC_70c60.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.77
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:1772 (check_include_file)"
+    checks:
+      - "Looking for mmdeviceapi.h"
+    directories:
+      source: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-5rq7g4"
+      binary: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-5rq7g4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/_coding/SDL2-2.26.5/cmake"
+    buildResult:
+      variable: "HAVE_MMDEVICEAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-5rq7g4
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9c732.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+        Сборка начата 02.05.2023 17:07:24.
+        Проект "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5rq7g4\\cmTC_9c732.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_9c732.dir\\Debug\\".
+          Создание каталога "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5rq7g4\\Debug\\".
+          Создание каталога "cmTC_9c732.dir\\Debug\\cmTC_9c732.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_9c732.dir\\Debug\\cmTC_9c732.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9c732.dir\\Debug\\\\" /Fd"cmTC_9c732.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5rq7g4\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31935 для x64
+          CheckIncludeFile.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9c732.dir\\Debug\\\\" /Fd"cmTC_9c732.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5rq7g4\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5rq7g4\\Debug\\cmTC_9c732.exe" /INCREMENTAL /ILK:"cmTC_9c732.dir\\Debug\\cmTC_9c732.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-5rq7g4/Debug/cmTC_9c732.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-5rq7g4/Debug/cmTC_9c732.lib" /MACHINE:X64  /machine:x64 cmTC_9c732.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_9c732.vcxproj -> C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5rq7g4\\Debug\\cmTC_9c732.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_9c732.dir\\Debug\\cmTC_9c732.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_9c732.dir\\Debug\\cmTC_9c732.tlog\\cmTC_9c732.lastbuildstate".
+        Сборка проекта "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5rq7g4\\cmTC_9c732.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.71
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:1773 (check_include_file)"
+    checks:
+      - "Looking for audioclient.h"
+    directories:
+      source: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-6dxfa4"
+      binary: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-6dxfa4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/_coding/SDL2-2.26.5/cmake"
+    buildResult:
+      variable: "HAVE_AUDIOCLIENT_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-6dxfa4
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_286bd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+        Сборка начата 02.05.2023 17:07:26.
+        Проект "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dxfa4\\cmTC_286bd.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_286bd.dir\\Debug\\".
+          Создание каталога "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dxfa4\\Debug\\".
+          Создание каталога "cmTC_286bd.dir\\Debug\\cmTC_286bd.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_286bd.dir\\Debug\\cmTC_286bd.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_286bd.dir\\Debug\\\\" /Fd"cmTC_286bd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dxfa4\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31935 для x64
+          CheckIncludeFile.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_286bd.dir\\Debug\\\\" /Fd"cmTC_286bd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dxfa4\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dxfa4\\Debug\\cmTC_286bd.exe" /INCREMENTAL /ILK:"cmTC_286bd.dir\\Debug\\cmTC_286bd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-6dxfa4/Debug/cmTC_286bd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-6dxfa4/Debug/cmTC_286bd.lib" /MACHINE:X64  /machine:x64 cmTC_286bd.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_286bd.vcxproj -> C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dxfa4\\Debug\\cmTC_286bd.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_286bd.dir\\Debug\\cmTC_286bd.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_286bd.dir\\Debug\\cmTC_286bd.tlog\\cmTC_286bd.lastbuildstate".
+        Сборка проекта "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dxfa4\\cmTC_286bd.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.79
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:1774 (check_include_file)"
+    checks:
+      - "Looking for sensorsapi.h"
+    directories:
+      source: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-5j559i"
+      binary: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-5j559i"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/_coding/SDL2-2.26.5/cmake"
+    buildResult:
+      variable: "HAVE_SENSORSAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-5j559i
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_744eb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+        Сборка начата 02.05.2023 17:07:28.
+        Проект "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5j559i\\cmTC_744eb.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_744eb.dir\\Debug\\".
+          Создание каталога "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5j559i\\Debug\\".
+          Создание каталога "cmTC_744eb.dir\\Debug\\cmTC_744eb.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_744eb.dir\\Debug\\cmTC_744eb.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_744eb.dir\\Debug\\\\" /Fd"cmTC_744eb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5j559i\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31935 для x64
+          CheckIncludeFile.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_744eb.dir\\Debug\\\\" /Fd"cmTC_744eb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5j559i\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5j559i\\Debug\\cmTC_744eb.exe" /INCREMENTAL /ILK:"cmTC_744eb.dir\\Debug\\cmTC_744eb.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-5j559i/Debug/cmTC_744eb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-5j559i/Debug/cmTC_744eb.lib" /MACHINE:X64  /machine:x64 cmTC_744eb.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_744eb.vcxproj -> C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5j559i\\Debug\\cmTC_744eb.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_744eb.dir\\Debug\\cmTC_744eb.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_744eb.dir\\Debug\\cmTC_744eb.tlog\\cmTC_744eb.lastbuildstate".
+        Сборка проекта "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5j559i\\cmTC_744eb.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.77
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "CMakeLists.txt:1775 (check_include_file)"
+    checks:
+      - "Looking for shellscalingapi.h"
+    directories:
+      source: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-vyda04"
+      binary: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-vyda04"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/_coding/SDL2-2.26.5/cmake"
+    buildResult:
+      variable: "HAVE_SHELLSCALINGAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-vyda04
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bb169.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+        Сборка начата 02.05.2023 17:07:30.
+        Проект "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vyda04\\cmTC_bb169.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_bb169.dir\\Debug\\".
+          Создание каталога "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vyda04\\Debug\\".
+          Создание каталога "cmTC_bb169.dir\\Debug\\cmTC_bb169.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_bb169.dir\\Debug\\cmTC_bb169.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bb169.dir\\Debug\\\\" /Fd"cmTC_bb169.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vyda04\\CheckIncludeFile.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31935 для x64
+          CheckIncludeFile.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bb169.dir\\Debug\\\\" /Fd"cmTC_bb169.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vyda04\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vyda04\\Debug\\cmTC_bb169.exe" /INCREMENTAL /ILK:"cmTC_bb169.dir\\Debug\\cmTC_bb169.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-vyda04/Debug/cmTC_bb169.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-vyda04/Debug/cmTC_bb169.lib" /MACHINE:X64  /machine:x64 cmTC_bb169.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_bb169.vcxproj -> C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vyda04\\Debug\\cmTC_bb169.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_bb169.dir\\Debug\\cmTC_bb169.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_bb169.dir\\Debug\\cmTC_bb169.tlog\\cmTC_bb169.lastbuildstate".
+        Сборка проекта "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vyda04\\cmTC_bb169.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.76
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "cmake/CheckCPUArchitecture.cmake:17 (check_c_source_compiles)"
+      - "cmake/CheckCPUArchitecture.cmake:28 (_internal_check_cpu_architecture)"
+      - "CMakeLists.txt:3287 (check_cpu_architecture)"
+    checks:
+      - "Performing Test CHECK_CPU_ARCHITECTURE_X86"
+    directories:
+      source: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-lrhyhc"
+      binary: "C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-lrhyhc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3  "
+      CMAKE_MODULE_PATH: "C:/_coding/SDL2-2.26.5/cmake"
+    buildResult:
+      variable: "CHECK_CPU_ARCHITECTURE_X86"
+      cached: true
+      stdout: |
+        Change Dir: C:/_coding/platformer/build/CMakeFiles/CMakeScratch/TryCompile-lrhyhc
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_39c8d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+        Сборка начата 02.05.2023 17:07:33.
+        Проект "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lrhyhc\\cmTC_39c8d.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_39c8d.dir\\Debug\\".
+          Создание каталога "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lrhyhc\\Debug\\".
+          Создание каталога "cmTC_39c8d.dir\\Debug\\cmTC_39c8d.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_39c8d.dir\\Debug\\cmTC_39c8d.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_CPU_ARCHITECTURE_X86 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_39c8d.dir\\Debug\\\\" /Fd"cmTC_39c8d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lrhyhc\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31935 для x64
+          src.c
+        C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lrhyhc\\src.c(8,1): error C2065: choke: необъявленный идентификатор [C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lrhyhc\\cmTC_39c8d.vcxproj]
+        C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lrhyhc\\src.c(8,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}" [C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lrhyhc\\cmTC_39c8d.vcxproj]
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_CPU_ARCHITECTURE_X86 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_39c8d.dir\\Debug\\\\" /Fd"cmTC_39c8d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lrhyhc\\src.c"
+        Сборка проекта "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lrhyhc\\cmTC_39c8d.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lrhyhc\\cmTC_39c8d.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lrhyhc\\src.c(8,1): error C2065: choke: необъявленный идентификатор [C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lrhyhc\\cmTC_39c8d.vcxproj]
+          C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lrhyhc\\src.c(8,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}" [C:\\_coding\\platformer\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lrhyhc\\cmTC_39c8d.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 2
+        
+        Прошло времени 00:00:00.80
+        
+      exitCode: 1
+...
