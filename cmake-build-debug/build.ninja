@@ -56,6 +56,20 @@ build CMakeFiles/platformer.dir/src/main.cpp.obj: CXX_COMPILER__platformer_Debug
   OBJECT_DIR = CMakeFiles\platformer.dir
   OBJECT_FILE_DIR = CMakeFiles\platformer.dir\src
 
+build CMakeFiles/platformer.dir/src/Texture.cpp.obj: CXX_COMPILER__platformer_Debug C$:/_coding/platformer/src/Texture.cpp || cmake_object_order_depends_target_platformer
+  DEP_FILE = CMakeFiles\platformer.dir\src\Texture.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem "C:/Program Files (x86)/SDL2/include" -isystem "C:/Program Files (x86)/SDL2/include/SDL2"
+  OBJECT_DIR = CMakeFiles\platformer.dir
+  OBJECT_FILE_DIR = CMakeFiles\platformer.dir\src
+
+build CMakeFiles/platformer.dir/src/Character.cpp.obj: CXX_COMPILER__platformer_Debug C$:/_coding/platformer/src/Character.cpp || cmake_object_order_depends_target_platformer
+  DEP_FILE = CMakeFiles\platformer.dir\src\Character.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -isystem "C:/Program Files (x86)/SDL2/include" -isystem "C:/Program Files (x86)/SDL2/include/SDL2"
+  OBJECT_DIR = CMakeFiles\platformer.dir
+  OBJECT_FILE_DIR = CMakeFiles\platformer.dir\src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target platformer
@@ -64,7 +78,7 @@ build CMakeFiles/platformer.dir/src/main.cpp.obj: CXX_COMPILER__platformer_Debug
 #############################################
 # Link the executable platformer.exe
 
-build platformer.exe: CXX_EXECUTABLE_LINKER__platformer_Debug CMakeFiles/platformer.dir/src/main.cpp.obj | C$:/Program$ Files$ (x86)/SDL2/lib/SDL2maind.lib C$:/Program$ Files$ (x86)/SDL2/lib/SDL2d.lib
+build platformer.exe: CXX_EXECUTABLE_LINKER__platformer_Debug CMakeFiles/platformer.dir/src/main.cpp.obj CMakeFiles/platformer.dir/src/Texture.cpp.obj CMakeFiles/platformer.dir/src/Character.cpp.obj | C$:/Program$ Files$ (x86)/SDL2/lib/SDL2maind.lib C$:/Program$ Files$ (x86)/SDL2/lib/SDL2d.lib
   FLAGS = -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = "C:/Program Files (x86)/SDL2/lib/SDL2maind.lib"  "C:/Program Files (x86)/SDL2/lib/SDL2d.lib"  -lshell32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
