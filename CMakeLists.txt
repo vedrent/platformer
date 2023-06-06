@@ -18,7 +18,7 @@ endif()
 
 # Create your game executable target as usual
 #add_executable(mygame WIN32 mygame.c)
-add_executable(platformer WIN32 src/main.cpp src/Texture.h src/Texture.cpp src/Character.cpp)
+add_executable(platformer WIN32 src/main.cpp src/Texture.h src/Texture.cpp src/Character.cpp src/Enemy.cpp)
 
 # SDL2::SDL2main may or may not be available. It is e.g. required by Windows GUI applications
 if(TARGET SDL2::SDL2main)

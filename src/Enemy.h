@@ -6,19 +6,19 @@
 
 using namespace std;
 
-class Character {
+class Enemy {
 public:
-    Character();
+    Enemy();
 
-    Character(Texture texture, int x, int y, int w, int h, int vl_y, int accel);
+    Enemy(Texture texture, int x, int y, int w, int h);
 
     Uint32 GetPixel(Uint32 x, Uint32 y, SDL_Surface *surf);
 
-    bool OnFloor(Texture level);
+    bool LeftCollision(Texture level);
 
-    bool InTexture(Texture level);
+    bool RightCollision(Texture level);
 
-    int CollisionWithWalls(Texture level);
+    void Move(Texture level);
 
     void Render(SDL_Renderer *render);
 
@@ -26,19 +26,11 @@ public:
 
     void SetY(int new_y);
 
-    void SetVelocity(int new_vel);
-
-    void SetAcceleration(int new_acc);
-
     Texture GetTexture();
 
     int GetX();
 
     int GetY();
-
-    int GetVelocity();
-
-    int GetAcceleration();
 
 private:
     Texture cTexture;
@@ -46,6 +38,7 @@ private:
     int height;
     int curr_x;
     int curr_y;
-    int vel_y;
-    int acceleration;
+    int level_x;
+    int level_y;
+    bool direction;
 };
