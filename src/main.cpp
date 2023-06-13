@@ -14,7 +14,6 @@ const int CHARACTER_HEIGHT = 100;
 const int ENEMY_HEIGHT = 50;
 const int ENEMY_WIDTH = 50;
 const int GRAVITATION = 1;
-const int JUMP_POWER = 5;
 const int RIGHTWALLCOLLISION = 1;
 const int LEFTWALLCOLLISION = 2;
 const int TOPWALLCOLLISION = 3;
@@ -24,7 +23,6 @@ SDL_Window *window = nullptr;
 SDL_Renderer *render = nullptr;
 Texture back = Texture();
 Texture level = Texture();
-Texture among = Texture();
 Texture karlson = Texture();
 Texture mushroom = Texture();
 Texture youdied = Texture();
@@ -56,7 +54,6 @@ bool init() {
 void Quit() {
     back.Free();
     level.Free();
-    among.Free();
     karlson.Free();
     mushroom.Free();
     youdied.Free();
@@ -73,16 +70,15 @@ int main(int argv, char **args) {
         return 1;
     }
 
-    const Uint8* state = SDL_GetKeyboardState(nullptr);
+    const Uint8 *state = SDL_GetKeyboardState(nullptr);
 
     back.LoadFromFile("../res/Background.bmp", "none", render, window);
     level.LoadFromFile("../res/level.bmp", "white", render, window);
-    among.LoadFromFile("../res/among.bmp", "white", render, window);
     karlson.LoadFromFile("../res/karlson.bmp", "white", render, window);
     mushroom.LoadFromFile("../res/mushroom.bmp", "white", render, window);
     youdied.LoadFromFile("../res/youdied.bmp", "white", render, window);
     youwin.LoadFromFile("../res/youwin.bmp", "white", render, window);
-    character = Character(karlson, 0, SCREEN_HEIGHT / 2 - CHARACTER_HEIGHT / 2, CHARACTER_WIDTH, CHARACTER_HEIGHT, 0, 0);
+    character = Character(karlson, 0, SCREEN_HEIGHT / 2 - CHARACTER_HEIGHT / 2, CHARACTER_WIDTH, CHARACTER_HEIGHT);
     enemy = Enemy(mushroom, 1300, 600 - ENEMY_HEIGHT, ENEMY_WIDTH, ENEMY_HEIGHT);
     // enemy cords 1300 600
     bool win = false;
@@ -94,54 +90,24 @@ int main(int argv, char **args) {
             switch (event.type) {
                 case SDL_QUIT:
                     quit = true;
-//                case SDL_KEYDOWN:
-//                    KEYS[event.key.keysym.sym] = true;
-//                    break;
-//                case SDL_KEYUP:
-//                    KEYS[event.key.keysym.sym] = false;
-//                    break;
                 default:
                     break;
             }
-            if (event.key.keysym.sym == SDLK_ESCAPE){
+            if (event.key.keysym.sym == SDLK_ESCAPE) {
                 quit = true;
             }
-//                switch (event.key.keysym.sym) {
-//                    case SDLK_RIGHT:
-//                        character.SetX(character.GetX() - 10);
-//                        enemy.SetX(enemy.GetX() - 10);
-//                        break;
-//                    case SDLK_LEFT:
-//                        character.SetX(character.GetX() + 10);
-//                        enemy.SetX(enemy.GetX() + 10);
-//                        break;
-//                    case SDLK_SPACE:
-//                        if (event.key.repeat == 0) {
-//                            character.SetAcceleration(character.GetAcceleration() - JUMP_POWER);
-//                        }
-//                        break;
-//                    case SDLK_ESCAPE:
-//                        quit = true;
-//                        break;
-//                    default:
-//                        break;
-//
-//            }
-//            if (event.type == SDL_QUIT) {
-//                quit = true;
-//            }
         }
         state = SDL_GetKeyboardState(nullptr);
 
         // CHARACTER
         character.Move(level, const_cast<Uint8 *>(state));
-        if (character.GetX() < -1850 and character.GetY() < 180){
+        if (character.GetX() < -1850 and character.GetY() < 180) {
             quit = true;
             win = true;
         }
 
         // ENEMY
-        enemy.Move(level, const_cast<Uint8 *>(state));
+        enemy.Move(level, const_cast<Uint8 *>(state), character.GetXPerFrame());
         if (enemy.CollisionWithCharacter(character)) {
             quit = true;
             death = true;

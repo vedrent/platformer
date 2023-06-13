@@ -13,7 +13,7 @@ const int ENEMY_HEIGHT = 50;
 const int ENEMY_WIDTH = 50;
 
 Enemy::Enemy() {
-    cTexture = Texture();
+    eTexture = Texture();
     sprite_curr = 0;
     sprite_clips = new SDL_Rect[8];
     for (int i = 0; i < 8; i++) {
@@ -32,7 +32,7 @@ Enemy::Enemy() {
 }
 
 Enemy::Enemy(Texture texture, int x, int y, int w, int h) {
-    cTexture = texture;
+    eTexture = texture;
     sprite_curr = 0;
     sprite_clips = new SDL_Rect[8];
     for (int i = 0; i < 8; i++) {
@@ -78,13 +78,8 @@ bool Enemy::CollisionWithCharacter(Character character) {
     return false;
 }
 
-void Enemy::Move(Texture level, Uint8 *state) {
-    if (state[SDL_SCANCODE_RIGHT]) {
-        curr_x -= 10;
-    }
-    if (state[SDL_SCANCODE_LEFT]) {
-        curr_x += 10;
-    }
+void Enemy::Move(Texture level, Uint8 *state, int x_per_frame) {
+    curr_x += x_per_frame;
 
     if (direction) {
         if (!this->RightCollision(level)) {
@@ -105,26 +100,6 @@ void Enemy::Move(Texture level, Uint8 *state) {
 
 void Enemy::Render(SDL_Renderer *render) {
     SDL_Rect rect = {curr_x, curr_y, width, height};
-    SDL_RenderCopy(render, cTexture.GetTexture(), &sprite_clips[sprite_curr / 2], &rect);
+    SDL_RenderCopy(render, eTexture.GetTexture(), &sprite_clips[sprite_curr / 2], &rect);
     sprite_curr = (sprite_curr + 1) % 16;
-}
-
-void Enemy::SetX(int new_x) {
-    curr_x = new_x;
-}
-
-void Enemy::SetY(int new_y) {
-    curr_y = new_y;
-}
-
-Texture Enemy::GetTexture() {
-    return cTexture;
-}
-
-int Enemy::GetX() {
-    return curr_x;
-}
-
-int Enemy::GetY() {
-    return curr_y;
 }

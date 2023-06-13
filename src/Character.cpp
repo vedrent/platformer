@@ -42,9 +42,10 @@ Character::Character() {
     is_on_jump = false;
     t = 0;
     start_y = 0;
+    x_per_frame = 0;
 }
 
-Character::Character(Texture texture, int x, int y, int w, int h, int vl_y, int accel) {
+Character::Character(Texture texture, int x, int y, int w, int h) {
     cTexture = texture;
     sprite_curr = 0;
     sprite_clips = new SDL_Rect[8];
@@ -58,11 +59,12 @@ Character::Character(Texture texture, int x, int y, int w, int h, int vl_y, int 
     height = h;
     curr_x = x;
     curr_y = y;
-    vel_y = vl_y;
-    acceleration = accel;
+    vel_y = 0;
+    acceleration = 0;
     is_on_jump = false;
     t = 0;
     start_y = 0;
+    x_per_frame = 0;
 }
 
 Uint32 Character::GetPixel(Uint32 x, Uint32 y, SDL_Surface *surf) {
@@ -98,6 +100,14 @@ int Character::CollisionWithWalls(Texture level) {
     if (curr_y < 0) {
         return 0;
     }
+    for (int h = 0; h < 30; h++) {
+        for (int size = 11; size < width - 10; size++) {
+            if (GetPixel(SCREEN_WIDTH / 2 - width / 2 - curr_x + size, curr_y + h, level.GetSurface()) !=
+                GetPixel(0, 0, level.GetSurface())) {
+                return TOPWALLCOLLISION;
+            }
+        }
+    }
     for (int h = 0; h < height - 1; h++) {
         if (GetPixel(SCREEN_WIDTH / 2 + width / 2 - curr_x - 1, curr_y + h, level.GetSurface()) !=
             GetPixel(0, 0, level.GetSurface())) {
@@ -108,21 +118,18 @@ int Character::CollisionWithWalls(Texture level) {
             return LEFTWALLCOLLISION;
         }
     }
-    for (int size = 0; size < width; size++) {
-        if (GetPixel(SCREEN_WIDTH / 2 - width / 2 - curr_x + size, curr_y + 1, level.GetSurface()) !=
-            GetPixel(0, 0, level.GetSurface())) {
-            return TOPWALLCOLLISION;
-        }
-    }
     return 0;
 }
 
 void Character::Move(Texture level, Uint8 *state) {
+    x_per_frame = 0;
     if (state[SDL_SCANCODE_RIGHT]) {
         curr_x -= 10;
+        x_per_frame -= 10;
     }
     if (state[SDL_SCANCODE_LEFT]) {
         curr_x += 10;
+        x_per_frame += 10;
     }
     if (state[SDL_SCANCODE_SPACE]) {
         if (OnFloor(level)) {
@@ -134,8 +141,8 @@ void Character::Move(Texture level, Uint8 *state) {
     if (is_on_jump) {
         if (!OnFloor(level) or t == 0) {
             t += 20;
-            curr_y = start_y - jump_power * t + gravity * pow(t,2) / 2;
-        } else{
+            curr_y = start_y - jump_power * t + gravity * pow(t, 2) / 2;
+        } else {
             t = 0;
             is_on_jump = false;
         }
@@ -145,38 +152,42 @@ void Character::Move(Texture level, Uint8 *state) {
         curr_y += vel_y;
     }
 
-    if (!this->OnFloor(level)) {
+    if (!OnFloor(level)) {
         acceleration += GRAVITATION;
     }
     vel_y += acceleration;
     bool quit_flag = true;
     while (quit_flag) {
-        switch (this->CollisionWithWalls(level)) {
+        switch (CollisionWithWalls(level)) {
+            case TOPWALLCOLLISION:
+                curr_y++;
+                is_on_jump = false;
+                t = 0;
+                break;
             case RIGHTWALLCOLLISION:
-                if (!this->InTexture(level)) {
+                if (!InTexture(level)) {
                     curr_x++;
+                    x_per_frame++;
                     break;
                 } else {
                     quit_flag = false;
                     break;
                 }
             case LEFTWALLCOLLISION:
-                if (!this->InTexture(level)) {
+                if (!InTexture(level)) {
                     curr_x--;
+                    x_per_frame--;
                     break;
                 } else {
                     quit_flag = false;
                     break;
                 }
-            case TOPWALLCOLLISION:
-                curr_y++;
-                break;
             case 0:
                 quit_flag = false;
                 break;
         }
     }
-    while (this->InTexture(level)) {
+    while (InTexture(level)) {
         curr_y--;
         vel_y = 0;
         acceleration = 0;
@@ -187,8 +198,8 @@ void Character::Move(Texture level, Uint8 *state) {
         vel_y = 0;
         acceleration = 0;
     }
-    if (curr_x > 0) {
-        curr_x = 0;
+    if (curr_x > SCREEN_WIDTH / 2) {
+        curr_x = SCREEN_WIDTH / 2;
     }
     if (curr_x < -SCREEN_WIDTH * 2) {
         curr_x = 1 - SCREEN_WIDTH * 2;
@@ -199,22 +210,6 @@ void Character::Render(SDL_Renderer *render) {
     SDL_Rect rect = {SCREEN_WIDTH / 2 - CHARACTER_WIDTH / 2, curr_y, width, height};
     SDL_RenderCopy(render, cTexture.GetTexture(), &sprite_clips[sprite_curr / 2], &rect);
     sprite_curr = (sprite_curr + 1) % 16;
-}
-
-void Character::SetX(int new_x) {
-    curr_x = new_x;
-}
-
-void Character::SetY(int new_y) {
-    curr_y = new_y;
-}
-
-void Character::SetVelocity(int new_vel) {
-    vel_y = new_vel;
-}
-
-void Character::SetAcceleration(int new_acc) {
-    acceleration = new_acc;
 }
 
 Texture Character::GetTexture() {
@@ -229,10 +224,6 @@ int Character::GetY() {
     return curr_y;
 }
 
-int Character::GetVelocity() {
-    return vel_y;
-}
-
-int Character::GetAcceleration() {
-    return acceleration;
+int Character::GetXPerFrame() {
+    return x_per_frame;
 }

@@ -10,7 +10,7 @@ class Character {
 public:
     Character();
 
-    Character(Texture texture, int x, int y, int w, int h, int vl_y, int accel);
+    Character(Texture texture, int x, int y, int w, int h);
 
     Uint32 GetPixel(Uint32 x, Uint32 y, SDL_Surface *surf);
 
@@ -24,23 +24,13 @@ public:
 
     void Render(SDL_Renderer *render);
 
-    void SetX(int new_x);
-
-    void SetY(int new_y);
-
-    void SetVelocity(int new_vel);
-
-    void SetAcceleration(int new_acc);
-
     Texture GetTexture();
 
     int GetX();
 
     int GetY();
 
-    int GetVelocity();
-
-    int GetAcceleration();
+    int GetXPerFrame();
 
 private:
     Texture cTexture;
@@ -55,4 +45,5 @@ private:
     bool is_on_jump;
     int t;
     int start_y;
+    int x_per_frame;
 };

@@ -21,22 +21,12 @@ public:
 
     bool CollisionWithCharacter(Character character);
 
-    void Move(Texture level, Uint8* state);
+    void Move(Texture level, Uint8* state, int x_per_frame);
 
     void Render(SDL_Renderer *render);
 
-    void SetX(int new_x);
-
-    void SetY(int new_y);
-
-    Texture GetTexture();
-
-    int GetX();
-
-    int GetY();
-
 private:
-    Texture cTexture;
+    Texture eTexture;
     int sprite_curr;
     SDL_Rect* sprite_clips;
     int width;

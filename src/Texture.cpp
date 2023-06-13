@@ -53,11 +53,3 @@ SDL_Surface *Texture::GetSurface() {
 SDL_Texture *Texture::GetTexture() {
     return aTexture;
 }
-
-int Texture::GetWidth() {
-    return aWidth;
-}
-
-int Texture::GetHeight() {
-    return aHeight;
-}

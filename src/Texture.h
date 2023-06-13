@@ -19,10 +19,6 @@ public:
 
     SDL_Texture *GetTexture();
 
-    int GetWidth();
-
-    int GetHeight();
-
 private:
     SDL_Texture *aTexture;
     SDL_Surface *aSurface;
