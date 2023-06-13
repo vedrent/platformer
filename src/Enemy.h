@@ -3,6 +3,7 @@
 #include "SDL2/SDL.h"
 #include "string"
 #include "Texture.h"
+#include "Character.h"
 
 using namespace std;
 
@@ -18,7 +19,9 @@ public:
 
     bool RightCollision(Texture level);
 
-    void Move(Texture level);
+    bool CollisionWithCharacter(Character character);
+
+    void Move(Texture level, Uint8* state);
 
     void Render(SDL_Renderer *render);
 
@@ -34,6 +37,8 @@ public:
 
 private:
     Texture cTexture;
+    int sprite_curr;
+    SDL_Rect* sprite_clips;
     int width;
     int height;
     int curr_x;

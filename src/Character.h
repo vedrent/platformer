@@ -20,6 +20,8 @@ public:
 
     int CollisionWithWalls(Texture level);
 
+    void Move(Texture level, Uint8* state);
+
     void Render(SDL_Renderer *render);
 
     void SetX(int new_x);
@@ -42,10 +44,15 @@ public:
 
 private:
     Texture cTexture;
+    int sprite_curr;
+    SDL_Rect* sprite_clips;
     int width;
     int height;
     int curr_x;
     int curr_y;
     int vel_y;
     int acceleration;
+    bool is_on_jump;
+    int t;
+    int start_y;
 };

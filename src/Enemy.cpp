@@ -5,8 +5,23 @@
 
 using namespace std;
 
+const int SCREEN_WIDTH = 1280;
+const int SCREEN_HEIGHT = 720;
+const int CHARACTER_WIDTH = 60;
+const int CHARACTER_HEIGHT = 100;
+const int ENEMY_HEIGHT = 50;
+const int ENEMY_WIDTH = 50;
+
 Enemy::Enemy() {
     cTexture = Texture();
+    sprite_curr = 0;
+    sprite_clips = new SDL_Rect[8];
+    for (int i = 0; i < 8; i++) {
+        sprite_clips[i].x = i * ENEMY_WIDTH;
+        sprite_clips[i].y = 0;
+        sprite_clips[i].w = ENEMY_WIDTH;
+        sprite_clips[i].h = ENEMY_HEIGHT;
+    }
     width = 0;
     height = 0;
     curr_x = 0;
@@ -18,6 +33,14 @@ Enemy::Enemy() {
 
 Enemy::Enemy(Texture texture, int x, int y, int w, int h) {
     cTexture = texture;
+    sprite_curr = 0;
+    sprite_clips = new SDL_Rect[8];
+    for (int i = 0; i < 8; i++) {
+        sprite_clips[i].x = i * ENEMY_WIDTH;
+        sprite_clips[i].y = 0;
+        sprite_clips[i].w = ENEMY_WIDTH;
+        sprite_clips[i].h = ENEMY_HEIGHT;
+    }
     width = w;
     height = h;
     curr_x = x;
@@ -46,7 +69,23 @@ bool Enemy::RightCollision(Texture level) {
     return false;
 }
 
-void Enemy::Move(Texture level) {
+bool Enemy::CollisionWithCharacter(Character character) {
+    if (curr_x < SCREEN_WIDTH / 2 + CHARACTER_WIDTH / 2 and curr_x + width > SCREEN_WIDTH / 2 - CHARACTER_WIDTH / 2) {
+        if (curr_y < character.GetY() + CHARACTER_HEIGHT and curr_y + height > character.GetY()) {
+            return true;
+        }
+    }
+    return false;
+}
+
+void Enemy::Move(Texture level, Uint8 *state) {
+    if (state[SDL_SCANCODE_RIGHT]) {
+        curr_x -= 10;
+    }
+    if (state[SDL_SCANCODE_LEFT]) {
+        curr_x += 10;
+    }
+
     if (direction) {
         if (!this->RightCollision(level)) {
             level_x++;
@@ -66,7 +105,8 @@ void Enemy::Move(Texture level) {
 
 void Enemy::Render(SDL_Renderer *render) {
     SDL_Rect rect = {curr_x, curr_y, width, height};
-    SDL_RenderCopy(render, cTexture.GetTexture(), nullptr, &rect);
+    SDL_RenderCopy(render, cTexture.GetTexture(), &sprite_clips[sprite_curr / 2], &rect);
+    sprite_curr = (sprite_curr + 1) % 16;
 }
 
 void Enemy::SetX(int new_x) {
